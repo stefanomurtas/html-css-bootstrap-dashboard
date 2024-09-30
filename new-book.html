@@ -66,13 +66,58 @@
                 <input type="text" class="form-control" id="floatingInputGroup1"
                     placeholder="Inserisci titolo del libro" class="mb-0">
                 <label for="floatingInputGroup1"></label>
-                <span class="text-primary text-opacity-25" class="mt-0">Titolo versione italiana</span>
+                <span class="text-secondary text-opacity-25" class="mt-0">Titolo versione italiana</span>
             </div>
+
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-4" class="form-floating">
+                    <div class="mt-3 mb-3">Genere</div>
+
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Azione e avventura</option>
+                        <option value="2">Biografie</option>
+                        <option value="3">Fantasy</option>
+                        <option value="4">Crimini e gialli</option>
+                    </select>
+                </div>
+                <div class="col-12 col-lg-4" class="form-floating">
+                    <div class="mt-3 mb-3">Anno di pubblicazione</div>
+
+                    <input type="number" step="1" value="none" min="1900" max="2024" class="form-control"
+                        id="floatingInput" placeholder="inserisci anno">
+                    <label for="floatingInput"></label>
+                </div>
+                <div class="col-12 col-lg-4" class="form-floating">
+                    <div class="mt-3 mb-3"> ISBN#</div>
+                    <input type="text" class="form-control" id="floatingInputGroup1"
+                        placeholder="Inserisci il codice ISBN#">
+                    <label for="floatingInputGroup1"></label>
+                </div>
+            </div>
+            <hr>
+            <div class="col-12 " class="form-floating">
+                <div class="mb-3" class="mb-2">Note</div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
+                  </div>
+           </div>
+           <div class="col-12 " class="form-floating">
+            <div class="mb-3" class="mb-2"></div>
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              disponibile anche in digitale
+            </label>
+          </div>
         </div>
+        <div class="col-12 " class="form-floating">
+            <div class="mb-3" class="mb-2"></div>
+        <button class="btn btn-primary" type="submit" >Aggiungi libro</button>
 
-
-
-
+    </div>
+        </div>
 
     </main>
 
